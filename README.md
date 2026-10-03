@@ -75,9 +75,10 @@ MIT — see `LICENSE`. Copyright (c) 2026 Tao Zhang.
 
 ## Reproducibility note
 
-Reference bundles and per-case result JSONs embed absolute paths, so regenerated
-files and their recorded content hashes depend on the directory the suite is run
-from. The committed replay outputs were produced in this repository root, and a
-fresh run from this directory leaves the working tree unchanged. Copying the
-repository to another path changes the hashes of the regenerated bundle JSONs,
-not the mutation data or the pass/fail outcomes.
+The committed JSONs under `replay/` are a snapshot of one run in this repository
+root. Re-running the suites changes three things that are not reproducibility
+signals: the recorded wall-clock `runtime_s` of each check, absolute path strings,
+and the content hashes derived from those paths (reference bundle JSONs embed the
+array paths). The stable, checkable outcome is the reported statuses and exit
+codes for the fixed-seed inputs: 10/10 contract cases and 8/8 boundary cases pass.
+Byte-identical output is not expected and is not the acceptance criterion.
