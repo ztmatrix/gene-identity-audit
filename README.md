@@ -67,7 +67,7 @@ result.
 See `CITATION.cff`. Manuscript in preparation: *Reference-supported auditing of
 gene–count alignment in reusable single-cell datasets*.
 
-Repository: https://github.com/<account>/gene-identity-audit (author to confirm the account before publication).
+Repository: https://github.com/ztmatrix/gene-identity-audit (author to confirm the account before publication).
 
 ## License
 

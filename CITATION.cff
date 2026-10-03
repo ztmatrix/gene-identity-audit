@@ -11,4 +11,4 @@ authors:
 version: "2.0.2-rc1"
 date-released: "2026-10-03"
 license: MIT
-repository-code: "https://github.com/<account>/gene-identity-audit"
+repository-code: "https://github.com/ztmatrix/gene-identity-audit"

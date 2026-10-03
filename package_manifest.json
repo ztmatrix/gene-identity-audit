@@ -20,8 +20,8 @@
       "sha256": "22d7a9a4a0df4b4f1afcb9ec8533fedf26429d798b7786064d5ceabf39ddab5d"
     },
     "CITATION.cff": {
-      "bytes": 448,
-      "sha256": "bd0cbaca9b43f7af9324e2d38843bc87bc7921d75557c82e8578ad1c828c7b5e"
+      "bytes": 447,
+      "sha256": "fff58ea47a58b57356c14170c0ef64381a897cdaeaba19cbbadc85143d688ead"
     },
     "docs/reviews_20261003/methodology_repro/cells.npy": {
       "bytes": 292,
@@ -144,8 +144,8 @@
       "sha256": "a529656aef23e66f56b8391638caa5a24ffbc9e263f3b7031436ea46f1d16883"
     },
     "README.md": {
-      "bytes": 3343,
-      "sha256": "5b70f97e8e63f57ab988f8888d795bfb9d091553b7e77d9a6ad723368d16dbec"
+      "bytes": 3938,
+      "sha256": "569ed0bef4002b3544d53eb08194fbac9ab3433a3efe91c5c6be125c2d1b8254"
     },
     "replay/auto_index_fixture.h5ad": {
       "bytes": 19952,
@@ -552,5 +552,7 @@
   "license_file": "LICENSE",
   "copyright": "2026 Tao Zhang",
   "public_release_note": "tree, commit and version tag prepared locally; no remote push performed",
-  "citation_file": "CITATION.cff"
+  "citation_file": "CITATION.cff",
+  "repository": "https://github.com/ztmatrix/gene-identity-audit",
+  "version_tag": "v2.0.2-rc1"
 }
