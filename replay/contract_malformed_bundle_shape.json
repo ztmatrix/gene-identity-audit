@@ -19,7 +19,7 @@
     "path": "replay\\selector_reference\\malformed_shape.json"
   },
   "reference": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\utility_evidence\\ones_reference\\bundle.json"
+    "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\utility_evidence\\ones_reference\\bundle.json"
   },
   "conventional_checks": {},
   "verdict": "structural_failure",

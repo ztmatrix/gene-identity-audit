@@ -16,7 +16,7 @@
     "numpy": "2.4.4"
   },
   "derived": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\utility_evidence\\does_not_exist.json"
+    "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\utility_evidence\\does_not_exist.json"
   },
   "reference": null,
   "conventional_checks": {},
@@ -24,6 +24,6 @@
   "structural_status": "invalid_or_unreadable",
   "identity_evidence": "not_evaluated",
   "overall_status": "error",
-  "reason": "FileNotFoundError: D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\utility_evidence\\does_not_exist.json",
+  "reason": "FileNotFoundError: D:\\gene-identity-audit\\docs\\reviews_20261003\\utility_evidence\\does_not_exist.json",
   "scope": null
 }

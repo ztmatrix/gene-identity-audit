@@ -72,3 +72,12 @@ Repository: https://github.com/<account>/gene-identity-audit (author to confirm 
 ## License
 
 MIT — see `LICENSE`. Copyright (c) 2026 Tao Zhang.
+
+## Reproducibility note
+
+Reference bundles and per-case result JSONs embed absolute paths, so regenerated
+files and their recorded content hashes depend on the directory the suite is run
+from. The committed replay outputs were produced in this repository root, and a
+fresh run from this directory leaves the working tree unchanged. Copying the
+repository to another path changes the hashes of the regenerated bundle JSONs,
+not the mutation data or the pass/fail outcomes.

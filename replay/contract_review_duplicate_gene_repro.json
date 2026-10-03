@@ -23,11 +23,11 @@
     "cell_subsample_method": "evenly_spaced_positions"
   },
   "derived": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\duplicate.json",
+    "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\duplicate.json",
     "sha256": "0ddfdce5831b0d76eda81fc8eaf516a631f71c1ac2e522a351004ab958d77bc3"
   },
   "reference": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\reference.json",
+    "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\reference.json",
     "sha256": "17a4b1da88a64318949d4900a1b55514467d7004752e37a7ce170b0e8943b790"
   },
   "conventional_checks": {
@@ -56,7 +56,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\values.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\values.npy",
           "bytes": 1376,
           "sha256": "69f4328a94522696d0b19e9e0f6698c9de86af05d21a03fa900303c68058a494",
           "dtype": "int64",
@@ -65,7 +65,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\indices.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\indices.npy",
           "bytes": 1376,
           "sha256": "62c0bf2951469d0dc94d88d35ac468018a057b04c292774e5bd9790c6759e1e3",
           "dtype": "int64",
@@ -74,7 +74,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\indptr.npy",
           "bytes": 160,
           "sha256": "0449577c8370bd38c2e9a612b7f255f3cb5fed1af9e157636a5540caf011bc84",
           "dtype": "int64",
@@ -83,7 +83,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\dup_genes.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\dup_genes.npy",
           "bytes": 575,
           "sha256": "7d112eef7b4b299e8d97639c5082ae20e0c5feb7c21a454ccb7d90c330eebc75",
           "dtype": "object",
@@ -92,7 +92,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\cells.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\cells.npy",
           "bytes": 292,
           "sha256": "4c691a5bbc18b718dc733ddb0eca65aa3aee7430ffe7469e8e54358a457c70e0",
           "dtype": "object",
@@ -111,7 +111,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\values.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\values.npy",
           "bytes": 1376,
           "sha256": "69f4328a94522696d0b19e9e0f6698c9de86af05d21a03fa900303c68058a494",
           "dtype": "int64",
@@ -120,7 +120,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\indices.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\indices.npy",
           "bytes": 1376,
           "sha256": "62c0bf2951469d0dc94d88d35ac468018a057b04c292774e5bd9790c6759e1e3",
           "dtype": "int64",
@@ -129,7 +129,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\indptr.npy",
           "bytes": 160,
           "sha256": "0449577c8370bd38c2e9a612b7f255f3cb5fed1af9e157636a5540caf011bc84",
           "dtype": "int64",
@@ -138,7 +138,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\genes.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\genes.npy",
           "bytes": 579,
           "sha256": "6c8c30dc734d4e443df4aad46e07fd3e3565973c8b786f8392c6501c7991e882",
           "dtype": "object",
@@ -147,7 +147,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\methodology_repro\\cells.npy",
+          "path": "D:\\gene-identity-audit\\docs\\reviews_20261003\\methodology_repro\\cells.npy",
           "bytes": 292,
           "sha256": "4c691a5bbc18b718dc733ddb0eca65aa3aee7430ffe7469e8e54358a457c70e0",
           "dtype": "object",
@@ -252,7 +252,7 @@
     },
     "verdict": "exact_match_in_scope",
     "reason": "identity alignment reproduces the reference exactly within the reported scope",
-    "runtime_s": 0.55
+    "runtime_s": 0.6
   },
   "verdict": "exact_match_in_scope",
   "reason": "identity alignment reproduces the reference exactly within the reported scope",

@@ -23,12 +23,12 @@
     "cell_subsample_method": "evenly_spaced_positions"
   },
   "derived": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\within_tolerance\\bundle.json",
-    "sha256": "f765037bf39e4eafa031c216a82292743605b46054ef9c49c93beb6a351af2c2"
+    "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\within_tolerance\\bundle.json",
+    "sha256": "877aac88be5761d81d2461f65124bc873bfa7a316184c49314602d5d6313a774"
   },
   "reference": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\bundle.json",
-    "sha256": "4e7b3b9bc9b63f23d5e0802dc6ac55898cde7003155903da773451f156635d6f"
+    "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\bundle.json",
+    "sha256": "681d4016cf681ce2ed789fe45211ec21a4384e3afc44114aa5aaa56e3f4109cc"
   },
   "conventional_checks": {
     "shape_declared": [
@@ -56,7 +56,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\within_tolerance\\data.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\within_tolerance\\data.npy",
           "bytes": 3328,
           "sha256": "0c1b90f3e665c9c3707ace0ffa1f43556a8c1fb1b92854226eb851972deb9775",
           "dtype": "int64",
@@ -65,7 +65,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\within_tolerance\\indices.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\within_tolerance\\indices.npy",
           "bytes": 1728,
           "sha256": "1e1a73827f5d3b1da3365f2d893f4d970c617b761005a1c80d3489d056611978",
           "dtype": "int32",
@@ -74,7 +74,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\within_tolerance\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\within_tolerance\\indptr.npy",
           "bytes": 148,
           "sha256": "b2615a885dc7ef9c4ec313d83c5d0cff68155c148852c148bb6193161d7e1430",
           "dtype": "int32",
@@ -83,7 +83,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\within_tolerance\\genes.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\within_tolerance\\genes.npy",
           "bytes": 1728,
           "sha256": "3f038f796ad5911bd38cc431becaf23337a8c9314b89cfa580b607130bd25a32",
           "dtype": "<U4",
@@ -92,7 +92,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\within_tolerance\\cells.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\within_tolerance\\cells.npy",
           "bytes": 208,
           "sha256": "9d1007f332203ad8c06b3a556937b5f1e939849cd2f87e8ebbe1abb26a76d2fe",
           "dtype": "<U5",
@@ -101,7 +101,7 @@
           ]
         }
       },
-      "spec_sha256": "f765037bf39e4eafa031c216a82292743605b46054ef9c49c93beb6a351af2c2"
+      "spec_sha256": "877aac88be5761d81d2461f65124bc873bfa7a316184c49314602d5d6313a774"
     },
     "reference": {
       "container": ".json",
@@ -111,7 +111,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\data.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\data.npy",
           "bytes": 6528,
           "sha256": "44530c76809ce3d3b8ccdfb0dcaa2c3dfdb6a68fac10f2cdd6a6d5cccd15ea2e",
           "dtype": "int64",
@@ -120,7 +120,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\indices.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\indices.npy",
           "bytes": 3328,
           "sha256": "87b2ecd0b1e38dde053e22cdc144fb94fdff73e78fc70d67614acd0aa8babace",
           "dtype": "int32",
@@ -129,7 +129,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\indptr.npy",
           "bytes": 148,
           "sha256": "6ea35a596ffa569bf087baaa971eb33b034b71c0e04c9521b35af8c6a322c986",
           "dtype": "int32",
@@ -138,7 +138,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\genes.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\genes.npy",
           "bytes": 3328,
           "sha256": "d0c40ae75dfa75927ad4831952869f56bbc63e6f927c2b09bca3335356f98bcc",
           "dtype": "<U4",
@@ -147,7 +147,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\cells.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\cells.npy",
           "bytes": 208,
           "sha256": "9d1007f332203ad8c06b3a556937b5f1e939849cd2f87e8ebbe1abb26a76d2fe",
           "dtype": "<U5",
@@ -156,7 +156,7 @@
           ]
         }
       },
-      "spec_sha256": "4e7b3b9bc9b63f23d5e0802dc6ac55898cde7003155903da773451f156635d6f"
+      "spec_sha256": "681d4016cf681ce2ed789fe45211ec21a4384e3afc44114aa5aaa56e3f4109cc"
     }
   },
   "fingerprint": {
@@ -252,7 +252,7 @@
     },
     "verdict": "within_tolerance",
     "reason": "identity informative mismatch fraction 0.0025 within configured tolerance 0.05; exact identity was not established",
-    "runtime_s": 0.55
+    "runtime_s": 0.63
   },
   "verdict": "within_tolerance",
   "reason": "identity informative mismatch fraction 0.0025 within configured tolerance 0.05; exact identity was not established",

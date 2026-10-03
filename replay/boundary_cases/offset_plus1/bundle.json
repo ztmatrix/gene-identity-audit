@@ -1,15 +1,15 @@
 {
   "format": "alignment-bundle-v1",
   "counts": {
-    "data": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\offset_plus1\\data.npy",
-    "indices": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\offset_plus1\\indices.npy",
-    "indptr": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\offset_plus1\\indptr.npy",
+    "data": "D:\\gene-identity-audit\\replay\\boundary_cases\\offset_plus1\\data.npy",
+    "indices": "D:\\gene-identity-audit\\replay\\boundary_cases\\offset_plus1\\indices.npy",
+    "indptr": "D:\\gene-identity-audit\\replay\\boundary_cases\\offset_plus1\\indptr.npy",
     "shape": [
       4,
       100
     ],
     "orientation": "csr"
   },
-  "genes": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\offset_plus1\\genes.npy",
-  "cells": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\offset_plus1\\cells.npy"
+  "genes": "D:\\gene-identity-audit\\replay\\boundary_cases\\offset_plus1\\genes.npy",
+  "cells": "D:\\gene-identity-audit\\replay\\boundary_cases\\offset_plus1\\cells.npy"
 }

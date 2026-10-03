@@ -62,7 +62,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\selector_reference\\data.npy",
+          "path": "D:\\gene-identity-audit\\replay\\selector_reference\\data.npy",
           "bytes": 1328,
           "sha256": "3cf0ed12dd4ca7493ecf39970c12b14945b1979bb3bb0a1e5674121f9f1411e3",
           "dtype": "int64",
@@ -71,7 +71,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\selector_reference\\indices.npy",
+          "path": "D:\\gene-identity-audit\\replay\\selector_reference\\indices.npy",
           "bytes": 728,
           "sha256": "10001137a75b58401e44060470ae9bf7858c5764bd8b77d04519709239a2d960",
           "dtype": "int32",
@@ -80,7 +80,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\selector_reference\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\replay\\selector_reference\\indptr.npy",
           "bytes": 144,
           "sha256": "a68091c2c655176cb713fae13a7263e3cb0e71555986d115df649133409243e1",
           "dtype": "int32",
@@ -89,7 +89,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\selector_reference\\genes.npy",
+          "path": "D:\\gene-identity-audit\\replay\\selector_reference\\genes.npy",
           "bytes": 928,
           "sha256": "e51c4646e09ab050ebd2b35e08d1cb8304675b911dbd59b7c56673e6e09c406e",
           "dtype": "<U4",
@@ -98,7 +98,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\selector_reference\\cells.npy",
+          "path": "D:\\gene-identity-audit\\replay\\selector_reference\\cells.npy",
           "bytes": 200,
           "sha256": "784a72ee28e47e907e2dd1404776512d1634d3072e8be7768fabc98c4a97f557",
           "dtype": "<U6",
@@ -203,7 +203,7 @@
     },
     "verdict": "exact_match_in_scope",
     "reason": "identity alignment reproduces the reference exactly within the reported scope",
-    "runtime_s": 0.41
+    "runtime_s": 0.45
   },
   "verdict": "exact_match_in_scope",
   "reason": "identity alignment reproduces the reference exactly within the reported scope",

@@ -23,12 +23,12 @@
     "cell_subsample_method": "evenly_spaced_positions"
   },
   "derived": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\normalized_proxy\\bundle.json",
-    "sha256": "5c02ded87824ae3aff191c687089a5fbc2b4f5f64cd037d699aa1b52015695f5"
+    "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\normalized_proxy\\bundle.json",
+    "sha256": "0fb8f47d488bd5ba2e88ffa88d07c0c29c5c74dc8c5843e16eaa7f9d26648d70"
   },
   "reference": {
-    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\bundle.json",
-    "sha256": "4e7b3b9bc9b63f23d5e0802dc6ac55898cde7003155903da773451f156635d6f"
+    "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\bundle.json",
+    "sha256": "681d4016cf681ce2ed789fe45211ec21a4384e3afc44114aa5aaa56e3f4109cc"
   },
   "conventional_checks": {
     "shape_declared": [
@@ -56,7 +56,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\normalized_proxy\\data.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\normalized_proxy\\data.npy",
           "bytes": 3328,
           "sha256": "75c05d132ecd6105324a59bb75af206d1c59b58a701d00aa7b8a319f70957957",
           "dtype": "float64",
@@ -65,7 +65,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\normalized_proxy\\indices.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\normalized_proxy\\indices.npy",
           "bytes": 1728,
           "sha256": "1e1a73827f5d3b1da3365f2d893f4d970c617b761005a1c80d3489d056611978",
           "dtype": "int32",
@@ -74,7 +74,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\normalized_proxy\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\normalized_proxy\\indptr.npy",
           "bytes": 148,
           "sha256": "b2615a885dc7ef9c4ec313d83c5d0cff68155c148852c148bb6193161d7e1430",
           "dtype": "int32",
@@ -83,7 +83,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\normalized_proxy\\genes.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\normalized_proxy\\genes.npy",
           "bytes": 1728,
           "sha256": "3f038f796ad5911bd38cc431becaf23337a8c9314b89cfa580b607130bd25a32",
           "dtype": "<U4",
@@ -92,7 +92,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\normalized_proxy\\cells.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\normalized_proxy\\cells.npy",
           "bytes": 208,
           "sha256": "9d1007f332203ad8c06b3a556937b5f1e939849cd2f87e8ebbe1abb26a76d2fe",
           "dtype": "<U5",
@@ -101,7 +101,7 @@
           ]
         }
       },
-      "spec_sha256": "5c02ded87824ae3aff191c687089a5fbc2b4f5f64cd037d699aa1b52015695f5"
+      "spec_sha256": "0fb8f47d488bd5ba2e88ffa88d07c0c29c5c74dc8c5843e16eaa7f9d26648d70"
     },
     "reference": {
       "container": ".json",
@@ -111,7 +111,7 @@
       "orientation": "csr",
       "members": {
         "data": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\data.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\data.npy",
           "bytes": 6528,
           "sha256": "44530c76809ce3d3b8ccdfb0dcaa2c3dfdb6a68fac10f2cdd6a6d5cccd15ea2e",
           "dtype": "int64",
@@ -120,7 +120,7 @@
           ]
         },
         "indices": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\indices.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\indices.npy",
           "bytes": 3328,
           "sha256": "87b2ecd0b1e38dde053e22cdc144fb94fdff73e78fc70d67614acd0aa8babace",
           "dtype": "int32",
@@ -129,7 +129,7 @@
           ]
         },
         "indptr": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\indptr.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\indptr.npy",
           "bytes": 148,
           "sha256": "6ea35a596ffa569bf087baaa971eb33b034b71c0e04c9521b35af8c6a322c986",
           "dtype": "int32",
@@ -138,7 +138,7 @@
           ]
         },
         "genes": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\genes.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\genes.npy",
           "bytes": 3328,
           "sha256": "d0c40ae75dfa75927ad4831952869f56bbc63e6f927c2b09bca3335356f98bcc",
           "dtype": "<U4",
@@ -147,7 +147,7 @@
           ]
         },
         "cells": {
-          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\cells.npy",
+          "path": "D:\\gene-identity-audit\\replay\\boundary_cases\\reference\\cells.npy",
           "bytes": 208,
           "sha256": "9d1007f332203ad8c06b3a556937b5f1e939849cd2f87e8ebbe1abb26a76d2fe",
           "dtype": "<U5",
@@ -156,7 +156,7 @@
           ]
         }
       },
-      "spec_sha256": "4e7b3b9bc9b63f23d5e0802dc6ac55898cde7003155903da773451f156635d6f"
+      "spec_sha256": "681d4016cf681ce2ed789fe45211ec21a4384e3afc44114aa5aaa56e3f4109cc"
     }
   },
   "fingerprint": {
@@ -252,7 +252,7 @@
     "order_best_spearman": 1.0,
     "verdict": "aligned_order",
     "reason": "normalised values; per-gene mean order matches the reference at identity (Spearman 1.0000, best other shift 1.0000)",
-    "runtime_s": 0.6
+    "runtime_s": 0.64
   },
   "verdict": "aligned_order",
   "reason": "normalised values; per-gene mean order matches the reference at identity (Spearman 1.0000, best other shift 1.0000)",
