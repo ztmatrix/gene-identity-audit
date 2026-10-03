@@ -1,0 +1,15 @@
+{
+  "format": "alignment-bundle-v1",
+  "counts": {
+    "data": "replay\\negative_values\\data.npy",
+    "indices": "replay\\negative_values\\indices.npy",
+    "indptr": "replay\\negative_values\\indptr.npy",
+    "shape": [
+      3,
+      50
+    ],
+    "orientation": "csr"
+  },
+  "genes": "replay\\negative_values\\genes.npy",
+  "cells": "replay\\negative_values\\cells.npy"
+}

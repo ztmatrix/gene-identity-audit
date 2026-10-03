@@ -1,0 +1,15 @@
+{
+  "format": "alignment-bundle-v1",
+  "counts": {
+    "data": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\data.npy",
+    "indices": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\indices.npy",
+    "indptr": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\indptr.npy",
+    "shape": [
+      4,
+      100
+    ],
+    "orientation": "csr"
+  },
+  "genes": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\genes.npy",
+  "cells": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\cells.npy"
+}

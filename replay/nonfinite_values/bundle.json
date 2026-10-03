@@ -1,0 +1,15 @@
+{
+  "format": "alignment-bundle-v1",
+  "counts": {
+    "data": "replay\\nonfinite_values\\data.npy",
+    "indices": "replay\\nonfinite_values\\indices.npy",
+    "indptr": "replay\\nonfinite_values\\indptr.npy",
+    "shape": [
+      3,
+      50
+    ],
+    "orientation": "csr"
+  },
+  "genes": "replay\\nonfinite_values\\genes.npy",
+  "cells": "replay\\nonfinite_values\\cells.npy"
+}

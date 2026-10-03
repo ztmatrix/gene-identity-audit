@@ -1,0 +1,18 @@
+{
+  "format": "alignment-bundle-v1",
+  "provenance": {
+    "note": "Artificial utility-review reproduction; no study data"
+  },
+  "counts": {
+    "data": "docs/reviews_20261003/utility_evidence/zero_matrix/data.npy",
+    "indices": "docs/reviews_20261003/utility_evidence/zero_matrix/indices.npy",
+    "indptr": "docs/reviews_20261003/utility_evidence/zero_matrix/indptr.npy",
+    "shape": [
+      3,
+      50
+    ],
+    "orientation": "csr"
+  },
+  "genes": "docs/reviews_20261003/utility_evidence/zero_matrix/genes.npy",
+  "cells": "docs/reviews_20261003/utility_evidence/zero_matrix/cells.npy"
+}

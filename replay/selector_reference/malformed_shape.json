@@ -1,0 +1,15 @@
+{
+  "format": "alignment-bundle-v1",
+  "counts": {
+    "data": "replay\\selector_reference\\data.npy",
+    "indices": "replay\\selector_reference\\indices.npy",
+    "indptr": "replay\\selector_reference\\indptr.npy",
+    "shape": [
+      4,
+      50
+    ],
+    "orientation": "csr"
+  },
+  "genes": "replay\\selector_reference\\genes.npy",
+  "cells": "replay\\selector_reference\\cells.npy"
+}

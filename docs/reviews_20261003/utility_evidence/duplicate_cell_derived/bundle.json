@@ -1,0 +1,18 @@
+{
+  "format": "alignment-bundle-v1",
+  "provenance": {
+    "note": "Artificial utility-review reproduction; no study data"
+  },
+  "counts": {
+    "data": "docs/reviews_20261003/utility_evidence/duplicate_cell_derived/data.npy",
+    "indices": "docs/reviews_20261003/utility_evidence/duplicate_cell_derived/indices.npy",
+    "indptr": "docs/reviews_20261003/utility_evidence/duplicate_cell_derived/indptr.npy",
+    "shape": [
+      4,
+      50
+    ],
+    "orientation": "csr"
+  },
+  "genes": "docs/reviews_20261003/utility_evidence/duplicate_cell_derived/genes.npy",
+  "cells": "docs/reviews_20261003/utility_evidence/duplicate_cell_derived/cells.npy"
+}

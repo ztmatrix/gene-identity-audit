@@ -1,0 +1,15 @@
+{
+  "format": "alignment-bundle-v1",
+  "cells": "docs/reviews_20261003/methodology_repro/cells.npy",
+  "genes": "docs/reviews_20261003/methodology_repro/genes.npy",
+  "counts": {
+    "data": "docs/reviews_20261003/methodology_repro/values.npy",
+    "indices": "docs/reviews_20261003/methodology_repro/indices.npy",
+    "indptr": "docs/reviews_20261003/methodology_repro/indptr.npy",
+    "shape": [
+      3,
+      52
+    ],
+    "orientation": "csr"
+  }
+}

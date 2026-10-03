@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alignment-v2-check-output.schema.json",
+  "title": "Alignment auditor v2 check output",
+  "type": "object",
+  "required": [
+    "tool", "version", "tool_sha256", "mode", "effective_parameters",
+    "derived", "reference", "conventional_checks", "verdict", "reason",
+    "structural_status", "identity_evidence", "overall_status", "scope"
+  ],
+  "properties": {
+    "tool": { "const": "audit_release_alignment_v2" },
+    "version": { "type": "string" },
+    "tool_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "mode": { "const": "check" },
+    "structural_status": { "enum": ["valid", "invalid", "invalid_or_unreadable"] },
+    "identity_evidence": {
+      "enum": ["exact_match_in_scope", "within_tolerance", "mismatch",
+               "reference_incompatible", "insufficient_information", "unresolved",
+               "not_evaluated"]
+    },
+    "overall_status": {
+      "enum": ["exact_match_in_scope", "structural_failure", "identity_mismatch",
+               "within_tolerance", "reference_incompatible", "insufficient_information",
+               "unresolved", "error"]
+    },
+    "reason": { "type": ["string", "null"] },
+    "scope": {
+      "type": ["object", "null"],
+      "properties": {
+        "matched_gene_columns": { "type": "integer", "minimum": 0 },
+        "matched_cells_compared": { "type": "integer", "minimum": 0 },
+        "max_cells": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": true
+    },
+    "effective_input_selection": { "type": "object" },
+    "effective_parameters": { "type": "object" },
+    "runtime_environment": { "type": "object" },
+    "conventional_checks": { "type": "object" },
+    "fingerprint": { "type": "object" }
+  },
+  "additionalProperties": true
+}

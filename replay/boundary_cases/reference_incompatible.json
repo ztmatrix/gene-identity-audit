@@ -1,0 +1,267 @@
+{
+  "tool": "audit_release_alignment_v2",
+  "version": "2.0.2-rc1",
+  "tool_sha256": "367a222eca8d1c9832e0cde39fca1760caa68e9c3983ab6b81801c3c951bf162",
+  "mode": "check",
+  "runtime_environment": {
+    "python": "3.14.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.4.4"
+  },
+  "effective_parameters": {
+    "max_cells": 300,
+    "offsets_inclusive": [
+      -3,
+      3
+    ],
+    "mismatch_fraction_tolerance": 0.05,
+    "matrix_source": "auto",
+    "gene_key": "auto",
+    "cell_key": "auto",
+    "min_matched_genes": 50,
+    "min_matched_cells": 3,
+    "cell_subsample_method": "evenly_spaced_positions"
+  },
+  "derived": {
+    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\bundle.json",
+    "sha256": "b631de88c9ada180bd6cd4b50820dbb90a46b8559c97700a70a487e81e9d7a7c"
+  },
+  "reference": {
+    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\bundle.json",
+    "sha256": "4e7b3b9bc9b63f23d5e0802dc6ac55898cde7003155903da773451f156635d6f"
+  },
+  "conventional_checks": {
+    "shape_declared": [
+      4,
+      100
+    ],
+    "shape_matches_labels": true,
+    "unique_gene_labels": true,
+    "duplicate_stable_gene_ids": 0,
+    "unique_cell_ids": true,
+    "values_nonnegative": true,
+    "values_finite": true,
+    "values_integer": true,
+    "sparsity": 1.0,
+    "per_cell_total_equals_reference": false,
+    "per_cell_total_equal_fraction": 0.0,
+    "passes_all_applicable": true
+  },
+  "effective_input_selection": {
+    "derived": {
+      "container": ".json",
+      "matrix_source": "bundle",
+      "gene_key": null,
+      "cell_key": null,
+      "orientation": "csr",
+      "members": {
+        "data": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\data.npy",
+          "bytes": 3328,
+          "sha256": "6a073df99952c1ab5fb0b3a43cb75e6cf288ed59db4528a3c75c92602d458001",
+          "dtype": "int64",
+          "shape": [
+            400
+          ]
+        },
+        "indices": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\indices.npy",
+          "bytes": 1728,
+          "sha256": "1e1a73827f5d3b1da3365f2d893f4d970c617b761005a1c80d3489d056611978",
+          "dtype": "int32",
+          "shape": [
+            400
+          ]
+        },
+        "indptr": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\indptr.npy",
+          "bytes": 148,
+          "sha256": "b2615a885dc7ef9c4ec313d83c5d0cff68155c148852c148bb6193161d7e1430",
+          "dtype": "int32",
+          "shape": [
+            5
+          ]
+        },
+        "genes": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\genes.npy",
+          "bytes": 1728,
+          "sha256": "3f038f796ad5911bd38cc431becaf23337a8c9314b89cfa580b607130bd25a32",
+          "dtype": "<U4",
+          "shape": [
+            100
+          ]
+        },
+        "cells": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference_incompatible\\cells.npy",
+          "bytes": 208,
+          "sha256": "9d1007f332203ad8c06b3a556937b5f1e939849cd2f87e8ebbe1abb26a76d2fe",
+          "dtype": "<U5",
+          "shape": [
+            4
+          ]
+        }
+      },
+      "spec_sha256": "b631de88c9ada180bd6cd4b50820dbb90a46b8559c97700a70a487e81e9d7a7c"
+    },
+    "reference": {
+      "container": ".json",
+      "matrix_source": "bundle",
+      "gene_key": null,
+      "cell_key": null,
+      "orientation": "csr",
+      "members": {
+        "data": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\data.npy",
+          "bytes": 6528,
+          "sha256": "44530c76809ce3d3b8ccdfb0dcaa2c3dfdb6a68fac10f2cdd6a6d5cccd15ea2e",
+          "dtype": "int64",
+          "shape": [
+            800
+          ]
+        },
+        "indices": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\indices.npy",
+          "bytes": 3328,
+          "sha256": "87b2ecd0b1e38dde053e22cdc144fb94fdff73e78fc70d67614acd0aa8babace",
+          "dtype": "int32",
+          "shape": [
+            800
+          ]
+        },
+        "indptr": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\indptr.npy",
+          "bytes": 148,
+          "sha256": "6ea35a596ffa569bf087baaa971eb33b034b71c0e04c9521b35af8c6a322c986",
+          "dtype": "int32",
+          "shape": [
+            5
+          ]
+        },
+        "genes": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\genes.npy",
+          "bytes": 3328,
+          "sha256": "d0c40ae75dfa75927ad4831952869f56bbc63e6f927c2b09bca3335356f98bcc",
+          "dtype": "<U4",
+          "shape": [
+            200
+          ]
+        },
+        "cells": {
+          "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\replay\\boundary_cases\\reference\\cells.npy",
+          "bytes": 208,
+          "sha256": "9d1007f332203ad8c06b3a556937b5f1e939849cd2f87e8ebbe1abb26a76d2fe",
+          "dtype": "<U5",
+          "shape": [
+            4
+          ]
+        }
+      },
+      "spec_sha256": "4e7b3b9bc9b63f23d5e0802dc6ac55898cde7003155903da773451f156635d6f"
+    }
+  },
+  "fingerprint": {
+    "mapped_gene_columns": 100,
+    "mapped_cells_total": 4,
+    "derived_genes": 100,
+    "derived_cells": 4,
+    "reference_genes": 200,
+    "reference_cells": 4,
+    "cell_matching": "identifier",
+    "fingerprint_cells": 4,
+    "cell_subsampled": false,
+    "fingerprint_gene_columns": 100,
+    "per_cell_total_equal_fraction": 0.0,
+    "per_cell_total_median_relative_difference": 2.244712,
+    "offset_fingerprint": {
+      "-3": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": 0.142536
+      },
+      "-2": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": -0.09627
+      },
+      "-1": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": -0.262266
+      },
+      "0": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": 0.029613
+      },
+      "1": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": 0.222445
+      },
+      "2": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": 0.116185
+      },
+      "3": {
+        "applicable": true,
+        "mismatched_entries": 400,
+        "total_entries": 400,
+        "mismatch_fraction": 1.0,
+        "non_zero_union_entries": 400,
+        "informative_mismatch_fraction": 1.0,
+        "gene_mean_spearman_vs_reference": -0.04015
+      }
+    },
+    "informative_definition": "mismatch / (entries non-zero on either side); raw fractions are dominated by sparse zeros",
+    "identity_mismatch_fraction": 1.0,
+    "identity_informative_mismatch_fraction": 1.0,
+    "best_offset": -3,
+    "best_offset_mismatch_fraction": 1.0,
+    "best_offset_informative_mismatch_fraction": 1.0,
+    "per_cell_value_multiset_equal_fraction": 0.0,
+    "cell_level": {
+      "identity_median_informative_mismatch_fraction": 1.0,
+      "identity_max_informative_mismatch_fraction": 1.0,
+      "outlier_cells": 0,
+      "outlier_threshold_fraction": 5.0
+    },
+    "verdict": "reference_incompatible",
+    "reason": "non-zero entries do not line up and per-cell value multisets differ; the two matrices are not the same data, no misalignment inferred",
+    "runtime_s": 0.56
+  },
+  "verdict": "reference_incompatible",
+  "reason": "non-zero entries do not line up and per-cell value multisets differ; the two matrices are not the same data, no misalignment inferred",
+  "structural_status": "valid",
+  "identity_evidence": "reference_incompatible",
+  "overall_status": "reference_incompatible",
+  "scope": {
+    "matched_gene_columns": 100,
+    "matched_cells_compared": 4,
+    "max_cells": 300
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "audit_release_alignment_v2",
+  "version": "2.0.2-rc1",
+  "tool_sha256": "367a222eca8d1c9832e0cde39fca1760caa68e9c3983ab6b81801c3c951bf162",
+  "mode": "check",
+  "runtime_environment": {
+    "python": "3.14.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.4.4"
+  },
+  "effective_parameters": {
+    "max_cells": 300,
+    "matrix_source": "auto",
+    "gene_key": "auto",
+    "cell_key": "auto",
+    "mismatch_fraction_tolerance": 0.05
+  },
+  "derived": {
+    "path": "replay\\selector_reference\\malformed_shape.json"
+  },
+  "reference": {
+    "path": "D:\\mito_alignment_cache\\alignment v202 local release 20261003\\docs\\reviews_20261003\\utility_evidence\\ones_reference\\bundle.json"
+  },
+  "conventional_checks": {},
+  "verdict": "structural_failure",
+  "reason": "ValueError: bundle shape (4, 50) does not match orientation 'csr' and labels (3 cells, 50 genes)",
+  "structural_status": "invalid",
+  "identity_evidence": "not_evaluated",
+  "overall_status": "structural_failure",
+  "scope": null
+}
